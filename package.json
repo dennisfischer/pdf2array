@@ -7,6 +7,8 @@
     "/dist"
   ],
   "scripts": {
+    "prepare": "npm run build-ts",
+    "build-ts": "tsc",
     "build": "npx tsc",
     "test": "jest"
   },
